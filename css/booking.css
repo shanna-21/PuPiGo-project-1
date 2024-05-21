@@ -1,3 +1,11 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 body{
     /* background-image: url("PuPiGo-02.png"); */
     background-color: #DEF2F1;
@@ -88,4 +96,26 @@ body{
     .custom-width {
         width: 100%; /* Make it responsive for smaller screens */
     }
+}
+
+.centang-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column; 
+}
+
+.centang-img, .desc-centang{
+    margin-top: 1rem;
+}
+
+.desc-centang{
+    background-color: red;
+    line-height: 35px;
+}
+
+.desc-centang-1{
+    font-size: 30px;
+    font-weight: bold;
 }
