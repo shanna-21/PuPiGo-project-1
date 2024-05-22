@@ -83,13 +83,14 @@ body{
 
 .dropdown-school{
     /* width: 100%; */
-    background-color: red;
+    /* background-color: red; */
     float: left;
 
 }
 
 .custom-width {
-    width: 200%; /* Set your desired width */
+    /* width: 200%;  */
+    /* Set your desired width */
 }
 
 @media (max-width: 100px) {
