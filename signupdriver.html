@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Split Screen Website</title>
+  <link rel="stylesheet" type="text/css" href="css/signupdriver.css">
+</head>
+<body>
+  <div class="split left">
+    <div class="left-content">
+      <h1 class="title" style="text-align: right;">Register Now</h1>
+      <h2 class="header" style="text-align: right;">Enter your personal details and start journey with us !</h2>
+      <img src="img/driver.png" alt="Image">
+    </div>
+  </div>
+
+  <div class="split right">
+    <!-- Right side -->
+
+    
+    <div class="splitright">
+
+      <div class ="titlee">
+        <img src="img/Logo.png" alt="Image">
+      </div>
+
+
+      <div class ="titlee">
+        <h2>General Information</h2>
+      </div>
+
+      <form action="/submit-form" method="post">
+      <div class="container general-information">
+        <!-- content here -->
+
+        <div class="grid-container">
+          
+          <input type="text" placeholder="Legal Name" class="item1">
+          <input type="number" placeholder="Phone Number" class="item2">
+          <input type="text" placeholder="Email Address" class="item3">
+
+          <div class="item4">
+            <h3>Upload Self Portrait</h3>
+            <input type="file" placeholder="here">
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class ="titlee">
+       <h2>Details</h2>
+      </div>
+
+      <div class="container details">
+
+        <!-- content here -->
+        <div class="grid-details">
+          
+          <div class="item5">
+            <h3>Upload an Image of your car</h3>
+            <input type="file" placeholder="here">
+          </div>
+
+          <div class="item6">
+            <h3>Upload Driver's License</h3>
+            <input type="file" placeholder="here">
+          </div>
+
+          <input type="text" placeholder="Expiration Date" class="item7" onfocus="(this.type='date')"
+          onblur="(this.type='text')">
+          <input type="text" placeholder="Address" class="item8">
+          <input type="number" placeholder="Postal Code" class="item9">
+          
+          <input list="Type of Car" name="Type of Car" class="item10" placeholder="Type of Car">
+            <datalist id="Type of Car">
+              <option value="Toyota">
+              <option value="Suzuko">
+              <option value="Mercedes">
+              <option value="Ferrari">
+              <option value="Hyundai">
+            </datalist>
+
+          <input list="Domicile" name="Domicile" class="item11" placeholder="Domicile">
+            <datalist id="Domicile">
+              <option value="Jakarta">
+              <option value="Surabaya">
+              <option value="London">
+              <option value="Malang">
+              <option value="Balik Papan">
+            </datalist>
+        
+        </div>
+      </div>
+
+      <div class ="titlee">
+       <h2>Password</h2>
+      </div>
+
+      <div class="container password">
+
+        <!-- content here -->
+        <div class="grid-password">
+          <input type="password" placeholder="Create Password" class="item12">
+          <input type="password" placeholder="Confirm Password" class="item13">
+
+          <div class="item14">
+
+            <button type="button" class="item14" onclick="refreshPage()">Confirm</button>  
+
+          </div>
+
+        </div>
+
+      </div>
+
+      </form>
+    
+    </div>
+
+
+  </div>
+  <script src="js/signupdriver.js"></script>
+</body>
+</html>
