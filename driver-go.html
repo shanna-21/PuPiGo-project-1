@@ -6,7 +6,7 @@
     <title>Project PuPiGo</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/driver-home.css">
+    <link rel="stylesheet" href="css/driver-go.css">
 </head>
 <body>
 
@@ -56,9 +56,7 @@
         <div class="flex-container">
           <!-- Content goes here -->
            <!-- title-->
-            <div class="flextitle">
-            <h1>My Active Rides</h1>
-            </div>
+            
             <!-- one entry-->
             <div class="flexrow">
                 <!-- logo of bus-->
@@ -77,7 +75,6 @@
                             <div class="flexdown">
                                 <h2 class="bold">Driver Info</h2>
                                 <h2>Mr. Kent</h2>
-                                <img src="img/driverimg.png" alt="Image">
                             </div>
                             
                         </div>
@@ -124,8 +121,7 @@
                         <div class="griditem6">
 
                             <div class="flexdown">
-                                <button type="button" class="item14" onclick="location.href='driver-go.html'">Confirm</button> 
-                                <h2 class="red">Cancel ride</h2>
+                                <h2 class="red">Report</h2>
                             </div>
                             
                         </div>
@@ -136,88 +132,49 @@
 
             </div>
 
-            <div class="flextitle">
+            <!-- <div class="flextitle">
                 
-                </div>
+            </div> -->
                 <!-- one entry-->
-                <div class="flexrow">
-                    <!-- logo of bus-->
-                    <div class="flexlogo">
-                        <div class="fleximg">
-                        <img src="img/driverlogo.png" alt="Image">
-                        </div>
-                    </div>
-    
-                    <!-- white box-->
-                    <div class="flexwhite">
-                        <div class="gridbox">
-                        <!-- item 1-->
-                            <div class="griditem1">
-    
-                                <div class="flexdown">
-                                    <h2 class="bold">Driver Info</h2>
-                                    <h2>Mr. Kent</h2>
-                                    <img src="img/driverimg.png" alt="Image">
-                                </div>
-                                
-                            </div>
-    
-                            <!-- item 2-->
-                            <div class="griditem2">
-    
-                                <div class="flexdown">
-                                    <h2 class="bold">Vehicle</h2>
-                                    <h2>Gran Max</h2>
-                                    <h2>Mini Bus</h2>
-                                </div>
-                            </div>
-    
-                            <div class="griditem3">
-    
-                                <div class="flexdown">
-                                    <h2 class="bold">Status</h2>
-                                    <h2>Picking Up</h2>
-                                </div>
-                                
-                            </div>
-    
-                            <div class="griditem4">
-    
-                                <div class="flexdown">
-                                    <h2 class="bold">Package Type</h2>
-                                    <h2>Package B</h2>
-                                    
-                                </div>
-                                
-                            </div>
-    
-                            <div class="griditem5">
-    
-                                <div class="flexdown">
-                                    <h2 class="bold">Remaining Rides</h2>
-                                    <h2>0 remaining rides</h2>
-                                    
-                                </div>
-                                
-                            </div>
-    
-                            <div class="griditem6">
-    
-                                <div class="flexdown">
-                                    <button type="button" class="item14">Confirm</button> 
-                                    <h2 class="blue">Rate the ride...</h2>
-                                </div>
-                                
-                            </div>
-    
-                        </div>
-    
-                    </div>
-    
+            
+            <div class="midsection">
+                <div class="mapholder">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63173451.06634254!2d11.217344245006101!3d14.892376380032276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69b78459ecbd51%3A0x1d4544da9ebea6f9!2sMenara%20Eiffel!5e0!3m2!1sen!2sid!4v1718821685921!5m2!1sen!2sid" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+            </div>
+
+            <div class="progress-bar">
+                <div class="circle active"></div>
+                <div class="line active"></div>
+                <div class="circle active"></div>
+                <div class="line active"></div>
+                <div class="circle active"></div>
+                <div class="line active"></div>
+                <div class="circle active"></div>
+                <div class="line"></div>
+                <div class="circle"></div>
+            </div>
+
+            <div class="text-bar">
+                <div class="textitems">
+                    <h2>Driver Heading to School</h2>
+                </div>
+                <div class="textitems">
+                    <h2>Driver Has Arrived at School</h2>
+                </div>
+                <div class="textitems">
+                    <h2>Your Loved One Has Been Picked Up</h2>
+                </div>
+                <div class="textitems">
+                    <h2>Heading Home</h2>
+                </div>
+                <div class="textitems">
+                    <h2>Ride Complete</h2>
+                </div>
+            
+            </div>
 
 
-        </div>
       </div>
     
 
