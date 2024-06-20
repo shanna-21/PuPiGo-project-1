@@ -91,6 +91,10 @@ body{
     /* background-color: red; */
 }
 
+.day-counter{
+    background-color: red;
+}
+
 .driverlist{
     background-color: red;
     display: flex;
